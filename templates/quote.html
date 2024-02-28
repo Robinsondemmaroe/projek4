@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <h2>Get a Stock Quote</h2>
+    <form action="{{ url_for('quote')}}" method="post">
+        <label for="symbol">Symbol</label>
+        <input type="text" name="symbol" id="symbol" placeholder="symbol">
+        <button type="submit">Get Quote</button>
+    </form>
+    {% if quote %}
+        <h3>{{ quote['name'] }} ({{ quote['symbol'] }})</h3>
+        <p> Price: {{ quote['price']|usd}}</p>
+    {% endif %}
+<!--  I make a table of most active quote from several resoureces so that user can eaisyly choose which quote to buy  -->
+
+    <br>
+    <p class="text-center" style="font-size: 24px; color: #333;">You can use this list as reference</p>
+
+    <div class="container">
+        <table class="table table-bordered table-striped mx-auto" style="font-size: 18px; max-width: 400px;">
+            <tr style="background-color: #FF007F;">
+                <th>
+                    <h2 class="text-center" style="color: white;">Most Active Stock Links</h2>
+                </th>
+            </tr>
+            <tr >
+                <td><a href="https://finance.yahoo.com/most-active/" target="_blank" style="color: #007bff;">Yahoo Finance - Most Active</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nasdaq.com/market-activity/most-active" target="_blank" style="color: #28a745;">Nasdaq - Most Active</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.investing.com/" target="_blank" style="color: #dc3545;">Investing.com - Most Active</a></td>
+            </tr>
+        </table>
+    </div>
+
+{% endblock %}
