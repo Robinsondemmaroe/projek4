@@ -1,11 +1,403 @@
 {% extends "index.html" %}
 
 {% block title %}
-    Sastra
+Teks Sastra
 {% endblock %}
 
 {% block main %}
+<div>
+<h1>Teks Sastra</h1>
+</div>
+<body>
+        <h2 style="text-align: left; padding-left: 40px;"> Petunjuk:</h2>
+        <p style="text-align: left; padding-left: 40px;"> <strong>Jawablah soal-soal berikut ini berdasarkan bacaan atau info grafik yang diberikan!</strong></p>
 
-<h1> Sastra
-    masih proses</h1>
+    <!-- Text 1 -->
+        <div class="containerquiz">
+            <div class="column reading" style="flex:3">
+                <form>
+                <!-- Reading Passage -->
+                    <p><strong> Bacalah text berikut untuk menjabwab soal nomor 1 - 2!</strong></p>
+                    <p style="text-align: center;"><strong>Laika Terlelap Bersama Bintang</strong></p>
+                    <p style="text-align: center;"><img src="/static/img/img_sastra/txt1sastra1.png" alt=""></p>
+                    <p>Kota Moskow pada musim dingin terasa menusuk tulang, aku berlari ke sana kemari untuk menghangatkan tubuh. Anjing tanpa tuan sepertiku memang bebas pergi ke mana saja. Tapi terkadang, jika musim dingin tiba, aku merindukan sebuah rumah. Suatu malam seorang lelaki membawaku ke sebuah gedung. Aku diperkenalkan pada banyak orang. Lantas mereka memanggilku Laika. Aku bahagia, setelah sekian lama akhirnya aku memiliki nama, dan nama itu terdengar merdu. Mereka memeriksa tubuhku, lalu mengatakan aku terpilih karena aku terbiasa hidup di jalanan, bertahan pada kondisi dingin yang ekstrim dan terbiasa kelaparan.</p>
+                    <p>Awalnya perasaanku tidak enak, tapi kemudian aku bertemu dengan dua kawan baru. Mereka dipanggil Muska dan Albina. Muska mengatakan kalau kami akan dilatih untuk pergi melihat bulan dan bintang-bintang. Oh, betapa menyenangkan! Hatiku jadi tenang. Setiap hari aku dan teman-temanku dilatih untuk tinggal di ruang yang sangat kecil, hanya cukup untuk tubuh kami saja, lalu dilatih memakan makanan serupa agar-agar berbagai rasa.</p>
+                    <p>Aku sering mendengar para pelatihku berbincang, kata mereka tabung tempatku ini disebut Sputnik II. Terbuat dari alumunium, tingginya 4 meter, beratnya 508,3 kg. Bentuknya mengerucut supaya nanti mudah melucur di angkasa. Sputnik II menggunakan telemetri trial D untuk nanti mengirim pesan. Aku suka mendengar istilah-istilah aneh yang mereka bicarakan. Lama kelamaan aku mulai terbiasa dengan ruang yang sempit. Mereka memasang banyak peralatan, katanya itu adalah sensor-sensor untuk mengontrol tekanan dan suhu, juga untuk memantau diriku.</p>
+                    <p>Pada tanggal 31 Oktober 1957 orang-orang yang merawatku memelukku. Wajah mereka tampak sendu, ada yang menangis, tapi ada juga yang tersenyum lebar mengucapkan kata-kata penyemangat. Tiga hari kemudian tabung sempit yang aku tempati berguncang hebat, aku cemas sekali. Aku ingin melompat keluar tapi semua terkunci. Lalu aku pasrah, dan mengingat kata-kata Muska, bahwa aku akan segera melihat bulan dan bintang-bintang.</p>
+                    <p style="text-align: center;"><img src="/static/img/img_sastra/txt1sastra2.png" alt=""></p>
+                </form>
+        </div>
+
+                <div class="column questions" style="flex:2">
+            <!-- Questions 1 -->
+                    <p style="text-align: left;"><strong>Nomor 1</strong><br>
+                        Laika mengalami perubahan besar dalam hidupnya setelah ia menjadi kosmonot anjing. Bagaimana kehidupan Laika sebelum dan sesudah ia tinggal di pusat pelatihan ruang angkasa! Klik kolom Sebelum atau Sesudah untuk setiap pernyataan!</p>
+                    <div>
+                        <table>
+                            <tr>
+                                <th>Pernyataan</th>
+                                <th>Sebelum</th>
+                                <th>Sesudah</th>
+                            </tr>
+                            <tr>
+                                <td>Laika adalah anjing tanpa tuan yang bebas pergi ke mana saja.</td>
+                                <td class="fusia"><input type="radio" name="statement2a" class="correct" value="benar"></td>
+                                <td class="fusia"><input type="radio" name="statement2a" value="salah"></td>
+                            </tr>
+                            <tr>
+                                <td>Laika sangat bahagia karena mendapatkan nama baru yang terdengar sangat indah.</td>
+                                <td class="fusia"><input type="radio" name="statement2b" value="benar"></td>
+                                <td class="fusia"><input type="radio" name="statement2b" class="correct" value="salah"></td>
+                            </tr>
+                            <tr>
+                                <td>Ia sangat bahagia karena akhirnya memiliki Tuan dan bertemu dengan orang banyak.</td>
+                                <td class="fusia"><input type="radio" name="statement2c" value="benar"></td>
+                                <td class="fusia"><input type="radio" name="statement2c" class="correct" value="salah"></td>
+                            </tr>
+                            <tr>
+                                <td>Laika dilatih untuk tinggal di ruang yang sangat kecil dan memakan makanan kosmonot.</td>
+                                <td class="fusia"><input type="radio" name="statement2c" value="benar"></td>
+                                <td class="fusia"><input type="radio" name="statement2c" class="correct" value="salah"></td>
+                            </tr>
+                        </table>
+                </div>
+            <!-- Questions 2 -->
+            <p></p>
+                    <p style="text-align: left;"><strong>Nomor 2</strong><br>
+                        Cerita tersebut dikisahkan oleh tokoh Aku yang merupakah seekor anjing. Alasan penulis memilih penyampaian cerita seperti itu agar... </p>
+                    <ol type="a">
+                        <li>pembaca dapat mengetahui langsung pengalaman dan perasaan yang dialami tokoh Laika.</li>
+                        <li>Laika bisa menjadi narator atau penyampai cerita dalam kisah miliknya sendiri.</li>
+                        <li>Pembaca bisa mendapatkan gambaran utuh tentang penjelajahan luar angkasa.</li>
+                        <li>informasi yang disampaikan dalam wacana tersebut semakin jelas dan tidak ambigu.</li>
+                        <li>cerita tentang Laika menjadi kisah yang menyentuh hati dan menginspirasi pembaca.</li>
+                    </ol>
+                    <div class="radio-group" centered>
+                        <div class="radio-buttons" centered>
+                            <p style="text-align: left;"><strong>Jawaban Nomor 2:</strong>
+                                <input type="radio" name="q1" value="a" class="correct" id="q1-a"><label for="q1-a" style="margin-right: 10px;">a</label>
+                                <input type="radio" name="q1" value="b" id="q1-b"><label for="q1-b" style="margin-right: 10px;">b</label>
+                                <input type="radio" name="q1" value="c" id="q1-c"><label for="q1-c" style="margin-right: 10px;">c</label>
+                                <input type="radio" name="q1" value="d" id="q1-d"><label for="q1-d" style="margin-right: 10px;">d</label>
+                                <input type="radio" name="q1" value="e" id="q1-e"><label for="q1-e" style="margin-right: 10px;">e</label>
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    <!-- Text 2 -->
+    <div class="containerquiz">
+        <div class="column reading" style="flex:3">
+            <form>
+            <!-- Reading Passage -->
+                <p><strong> Bacalah text berikut untuk menjabwab soal nomor 3 - 6!</strong></p>
+                <p style="text-align: center;"><strong>Bahaya Berkendara Sebelum Waktunya</strong></p>
+                <p style="text-align: center;"><img src="/static/img/img_sastra/txt2sastra1.png" alt=""></p>
+                <p>Sore ini adalah jadwal latihan olahraga basket di sekolah. Tapi gara-gara aku ketiduran setelah pulang sekolah, aku jadi hampir terlambat untuk mengikuti latihan basket tersebut.</p>
+                <p>“Ayah, ayo antarkan aku ke sekolah. Aku sudah hampir terlambat,” desakku kepada ayah yang sedang memperbaiki kipas angin.</p>
+                <p>“Aduh, ayah lagi sibuk, nih. Jalan kaki aja seperti biasa,” jawab ayah sambil tak lepas dengan obengnya. “Tapi aku hampir terlambat. Mana bisa jalan kaki,” desakku lagi. Tiba-tiba aku ingat sesuatu. “Aku saja yang bawa motor sendiri ke sekolah ya, Yah. Aku kan sudah bisa karena diajari oleh Abang Rudi,” ucapku sambil membujuk ayah. Ayah menghentikan kegiatannya sejenak, lalu tampak berpikir.</p>
+                <p>“Ayolah, Yah. Aku akan hati-hati. Lagian jarak ke sekolah gak terlalu jauh kok,” bujukku lagi. “Iya, deh. Tapi harus janji untuk berhati-hati, ya,” nasihat ayah yang langsung aku sambut dengan lompatan sukacita. “Yes!!” </p>
+                <p>Aku mengendarai motor dengan perasaan senang. Heru pasti akan iri melihatku membawa kendaraan sendiri hari ini. Dan, Malika pasti akan kagum melihatku jago mengemudi sepeda motor. Mendadak hatiku berbungabunga.</p>
+                <p>Tanpa bisa ditahan, senyumku mulai merekah. Ya, aku nyaris seperti orang gila yang tersenyum-senyum sendiri di sepanjang jalan. </p>
+                <p>Lalu, tiba-tiba … Tetttt!!!!</p>
+                <p>Entah darimana sebuah mobil tiba-tiba datang dari arah depan. Apa aku yang memang tidak melihat sebelumnya karena asyik mengkhayal dalam perjalanan atau memang mobil itu adalah mobil siluman yang datang dan pergi secara tiba-tiba.</p>
+                <p>Ah, entahlah. Tapi yang pasti, pikiranku jadi kacau dan konsentrasiku pecah. Sepertinya kondisi kejiwaanku tidak siap menghadapi peristiwa ini sehingga otak kecilku tidak tahu harus memerintahkan apa untuk menjadi sebuah tindakan penyelamatan.</p>
+                <p>Yang aku tahu, setang motor sudah berbelok ke kiri saja. Gubrak!!! Aduh!!!</p>
+                <p>Ya, Tuhan. Aku bersama motorku terjun ke sebuah selokan. Sekilas aku melihat setang motor bengkok, kaki tidak dapat digerakkan, dan banyak orang mulai berdatangan. Aku pingsan. Setelah itu? Aku berjanji tidak akan berkendara motor lagi sebelum usiaku matang.</p>
+                <p>Sumber: Pusmendik</p>
+        </form>
+    </div>
+
+            <div class="column questions" style="flex:2">
+        <!-- Questions 3 -->
+        <p style="text-align: left;"><strong>Nomor 3</strong><br>
+                    Mengapa tokoh aku hampir terlambat mengikuti latihan basket?</p>
+                <ol type="a">
+                    <li>Membantu ayahnya terlebih dahulu.</li>
+                    <li>Lelap tertidur setelah pulang sekolah.</li>
+                    <li>Belajar naik motor bersama Bang Rudi.</li>
+                    <li>Bermain dengan Heru sepulang sekolah.</li>
+                    <li>Terjadi insiden motornya masuk selokan.</li>
+                </ol>
+                <div class="radio-group" centered>
+                    <div class="radio-buttons" centered>
+                        <p style="text-align: left;"><strong>Jawaban Nomor 3:</strong>
+                            <input type="radio" name="q2" value="a" id="q2-a"><label for="q2-a" style="margin-right: 10px;">a</label>
+                            <input type="radio" name="q2" value="b" class="correct" id="q2-b"><label for="q2-b" style="margin-right: 10px;">b</label>
+                            <input type="radio" name="q2" value="c" id="q2-c"><label for="q2-c" style="margin-right: 10px;">c</label>
+                            <input type="radio" name="q2" value="d" id="q2-d"><label for="q2-d" style="margin-right: 10px;">d</label>
+                            <input type="radio" name="q2" value="e" id="q2-e"><label for="q2-e" style="margin-right: 10px;">e</label>
+                        </p>
+                    </div>
+                </div>
+        <!-- Questions 4 -->
+                <p style="text-align: left;"><strong>Nomor 4</strong><br>
+                    Mengapa aku ingin berkendara?</p>
+                <ol type="a">
+                    <li>Termakan rayuan.</li>
+                    <li>Tidak bijak berkendara.</li>
+                    <li>Sudah memiliki SIM.</li>
+                    <li>Agar cepat sampai ke sekolah.</li>
+                </ol>
+                <div class="radio-group" centered>
+                    <div class="radio-buttons" centered>
+                        <p style="text-align: left;"><strong>Jawaban Nomor 4:</strong>
+                            <input type="radio" name="q3" value="a" id="q3-a"><label for="q3-a" style="margin-right: 10px;">a</label>
+                            <input type="radio" name="q3" value="b" id="q3-b"><label for="q3-b" style="margin-right: 10px;">b</label>
+                            <input type="radio" name="q3" value="c" id="q3-c"><label for="q3-c" style="margin-right: 10px;">c</label>
+                            <input type="radio" name="q3" value="d" class="correct" id="q3-d"><label for="q3-d" style="margin-right: 10px;">d</label>
+                        </p>
+                    </div>
+                </div>
+            <!-- Questions 5 -->
+                <p style="text-align: left;"><strong>Nomor 5</strong><br>
+                    Mengapa ayah mengizinkan aku berkendara?</p>
+                <ol type="a">
+                    <li>Termakan rayuan.</li>
+                    <li>Tidak bijak berkendara.</li>
+                    <li>Sudah memiliki SIM.</li>
+                    <li>Agar cepat sampai ke sekolah.</li>
+                </ol>
+                <div class="radio-group" centered>
+                    <div class="radio-buttons" centered>
+                        <p style="text-align: left;"><strong>Jawaban Nomor 5:</strong>
+                            <input type="radio" name="q4" value="a" class="correct" id="q4-a"><label for="q4-a" style="margin-right: 10px;">a</label>
+                            <input type="radio" name="q4" value="b" id="q4-b"><label for="q4-b" style="margin-right: 10px;">b</label>
+                            <input type="radio" name="q4" value="c" id="q4-c"><label for="q4-c" style="margin-right: 10px;">c</label>
+                            <input type="radio" name="q4" value="d" id="q4-d"><label for="q4-d" style="margin-right: 10px;">d</label>
+                        </p>
+                    </div>
+                </div>
+                <!-- Questions 6 -->
+                <p style="text-align: left;"><strong>Nomor 6</strong><br>
+                    Faktor utama penyebab kecelakaan lalu lintas?</p>
+                <ol type="a">
+                    <li>Termakan rayuan.</li>
+                    <li>Tidak bijak berkendara.</li>
+                    <li>Sudah memiliki SIM.</li>
+                    <li>Agar cepat sampai ke sekolah.</li>
+                </ol>
+                <div class="radio-group" centered>
+                    <div class="radio-buttons" centered>
+                        <p style="text-align: left;"><strong>Jawaban Nomor 6:</strong>
+                            <input type="radio" name="q5" value="a" id="q5-a"><label for="q5-a" style="margin-right: 10px;">a</label>
+                            <input type="radio" name="q5" value="b" class="correct" id="q5-b"><label for="q5-b" style="margin-right: 10px;">b</label>
+                            <input type="radio" name="q5" value="c" id="q5-c"><label for="q5-c" style="margin-right: 10px;">c</label>
+                            <input type="radio" name="q5" value="d" id="q5-d"><label for="q5-d" style="margin-right: 10px;">d</label>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+   <!-- Text 3 -->
+    <div class="containerquiz">
+        <div class="column reading" style="flex:3">
+            <form>
+            <!-- Reading Passage -->
+                <p><strong> Bacalah text berikut untuk menjabwab soal nomor 7 - 8!</strong></p>
+                <p style="text-align: center;"><strong>Bravo, Netta!</strong></p>
+                <p style="text-align: center;"><img src="/static/img/img_sastra/txt3sastra1.png" alt=""></p>
+                <p>'Apa yang kau lihat, Netta?” Tepukan bahu itu mengagetkan Netta. Dia menolehkan kepala dan melihat sebaris gigi putih berjajar menyunggingkan senyum.</p>
+                <p>“Oma, mengejutkan saja,” balasnya sambil mengalihkan pandangan ke laut lepas. Ia tak mau Oma mengetahui kekhawatiran yang ia rasakan. Oma selalu bisa membaca jalan pikirannya. Netta menghela napas panjang. Angin laut menari-narikan rambutnya yang panjang tergerai.</p>
+                <p>“Netta, perhatikan burung itu,” ucap Oma sambil menunjuk burung gannet yang sedang mengamati target ikan di bawah laut. Kemudian, ia terbang cepat, menyelipkan kedua sayapnya hingga lurus, dan menukik tajam ke dalam laut. Kami menunggu hingga burung itu kembali melesat ke udara. Kemudian, burung itu berkumpul dengan koloninya. Menarik diamati ketika hati sedang menari, tapi Netta sedang kacau. Bahkan, sekumpulan burung gannet bulu berwarna putih dengan ujung sayap berwarna hitam, paruh berwarna kebiru-biruan muda dan mata berwarna biru muda pun tak membuat Netta terpikat.</p>
+                <p>“Kau tahu, Netta. Burung gannet hanya mau makan ikan sarden yang berada di laut dalam. Tentunya ia butuh perjuangan untuk mencapainya. Apa ia malas menyelam hingga kedalaman sepuluh meter? Tidak kan? Kau lihat bagaimana ia terjun ke dalam laut, tentunya dengan kecepatan penuh dan ia tetap melakukannya,” Oma melirik Netta yang masih memainkan beberapa helai rambutnya.</p>
+                <p>“Setiap makhluk punya keistimewaan. Tuhan telah merancang dengan sebaik-baiknya, tinggal kita mampu atau tidak memanfaatkannya,” itu lagi yang dibahas Oma. Andai saja hidup itu semudah burung yang memang ditakdirkan bisa terbang.</p>
+                <p>“Netta, coba ingat lagi. Kau sudah sejauh ini melangkah, meninggalkan negerimu untuk meraih cita-citamu. Jangan patah arang di tengah jalan, Sayang,” Oma memang bukan saudaraku, hanya orang tua asuh selama aku kuliah di Benua Eropa ini. Ya, sudah dua kali presentasinya ditolak Prof. Smith. Materi itu sudah ia kerjakan selama dua bulan dengan hasil riset yang nggak kacangan.</p>
+                <p>“Oma, aku harus bagaimana?” akhirnya Netta buka suara. “Oma tahu sendiri. Netta bolak-balik cari data, melakukan beberapa percobaan, bahkan sudah uji coba. Netta nggak tahu salahnya di mana?” tangis Netta pecah. Bulir-bulir itu pun menderas, bahunya berguncang hebat. Oma pun menyandarkan kepala Netta ke bahunya.</p>
+                <p>“Jalan tak selamanya lurus dan mulus. Kadang ada tikungan, jalan menurun, berlubang, atau ada beberapa kerikil. Namun, ketika belum sampai tujuan bukankah para pengemudi masih melajukan kendaraannya hingga ke lokasi yang dituju?” kata Oma menenangkan Netta.</p>
+                <p>“Netta, pelajari sekali lagi. Lihat catatan Prof. Smith, revisi, dan hadapi dia. Yakinlah pada kemampuan dan proses yang sudah kau lakukan,” Oma menggandeng Netta pulang. Beberapa burung gannet masih beradu di udara dan kembali melakukan atraksi rudalnya. Mereka tak pernah berhenti melakukannya berulang-ulang.</p>
+                <p>Penulis: Diah Erna</p>
+        </form>
+    </div>
+
+            <div class="column questions" style="flex:2">
+        <!-- Questions 7 -->
+        <p style="text-align: left;"><strong>Nomor 7</strong><br>
+            “Beberapa burung gannet masih beradu di udara dan kembali melakukan atraksi rudalnya.” Apa maksud penulis menggunakan pernyataan tersebut?</p>
+                <ol type="a">
+                    <li>Memberitahu bahwa burung gannet sebagai ciptaan Tuhan yang memiliki warna yang indah.</li>
+                    <li>Agar kita belajar dari burung gannet yang berusaha maksimal dalam mendapatkan mangsanya.</li>
+                    <li>Mengajak kita untuk menyukai dan melestarikan burung gannet sebagai makhluk ciptaan Tuhan.</li>
+                    <li>Memberitahukan bahwa burung gamet pandai menyelam dan gigih dalam mencari mangsa.</li>
+                    <li>Burung gannet lambang keindahan pantai dan keagungan dari ciptaan Tuhan.</li>
+                </ol>
+                <div class="radio-group" centered>
+                    <div class="radio-buttons" centered>
+                        <p style="text-align: left;"><strong>Jawaban Nomor 3:</strong>
+                            <input type="radio" name="q6" value="a" id="q6-a"><label for="q6-a" style="margin-right: 10px;">a</label>
+                            <input type="radio" name="q6" value="b" class="correct" id="q6-b"><label for="q6-b" style="margin-right: 10px;">b</label>
+                            <input type="radio" name="q6" value="c" id="q6-c"><label for="q6-c" style="margin-right: 10px;">c</label>
+                            <input type="radio" name="q6" value="d" id="q6-d"><label for="q6-d" style="margin-right: 10px;">d</label>
+                            <input type="radio" name="q6" value="e" id="q6-e"><label for="q6-e" style="margin-right: 10px;">e</label>
+                        </p>
+                    </div>
+                </div>
+        <!-- Questions 8 -->
+                <p style="text-align: left;"><strong>Nomor 8</strong><br>
+                    Netta telah bersungguh-sungguh dalam menyusun tugasnya. Hal ini
+                    dapat dibuktikan dari isi cerita yang menunjukkan bahwa Netta... Pilih
+                    pernyataan yang benar, kecuali ...</p>
+                <ol type="a">
+                    <li>menyusun materi selama dua bulan dengan hasil riset yang dapat dipertanggungjawabkan.</li>
+                    <li>menemui Prof. Smith dan menanyakan kesalahan-kesalahan dalam tugasnya.</li>
+                    <li>mengerjakan tugas secara kelompok agar mendapatkan hasil yang maksimal.</li>
+                    <li>bolak-balik mencari data, melakukan beberapa percobaan, bahkan sudah melakukan uji coba.</li>
+                    <li>sudah dua kali mempresentasikan hasil uji cobanya, tetapi ditolak Prof. Smith.</li>
+                </ol>
+                <div class="radio-group" centered>
+                    <div class="radio-buttons" centered>
+                        <p style="text-align: left;"><strong>Jawaban Nomor 8:</strong>
+                            <input type="radio" name="q7" value="a" id="q7-a"><label for="q7-a" style="margin-right: 10px;">a</label>
+                            <input type="radio" name="q7" value="b" id="q7-b"><label for="q7-b" style="margin-right: 10px;">b</label>
+                            <input type="radio" name="q7" value="c" class="correct" id="q7-c"><label for="q7-c" style="margin-right: 10px;">c</label>
+                            <input type="radio" name="q7" value="d" id="q7-d"><label for="q7-d" style="margin-right: 10px;">d</label>
+                            <input type="radio" name="q7" value="e" id="q7-e"><label for="q7-e" style="margin-right: 10px;">d</label>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </diV>
+
+   <!-- Text 4 -->
+   <div class="containerquiz">
+    <div class="column reading" style="flex:3">
+        <form>
+        <!-- Reading Passage -->
+            <p><strong> Bacalah text berikut untuk menjabwab soal nomor 9 - 10!</strong></p>
+            <p style="text-align: center;"><strong>Sinyal Aneh</strong></p>
+            <p style="text-align: center;"><img src="/static/img/img_sastra/txt4sastra1.png" alt=""></p>
+            <p>PET!</p>
+            <p>'Duh! Selalu saja begini tiap mau menyelesaikan tugas!' Dani memandang ruang kamarnya yang menjadi gelap gulita. Ia meletakkan pensilnya di atas buku tulisnya. Pupilnya yang semula mengecil karena cahaya terang menjadi membesar karena tak ada penerangan.</p>
+            <p>Ia berdiam diri sejenak dan membiarkan matanya beradaptasi dengan kondisi sekitar. Enam juta sel kerucut retinanya melakukan deaktivasi ketika tidak ada cahaya, juga seratus dua puluh juta sel batang retina mengaktifkan diri. Ia pun bisa melihat kondisi sekitar meski hanya remang-remang.</p>
+            <p>Dani berdiri dan berjalan pelan sambil meraba-raba benda di hadapannya. Ia tidak ingin terbentur dinding atau pintu. Ia berhasil memegang ujung pintu kayu yang terbuka separuh dan membuka pintu itu selebar mungkin.</p>
+            <p>Sebuah cahaya kecil menyentuh lapisan kornea dan menyapa pupilnya yang mengerucut hingga dibelokkan oleh lensa. Ia melihat seseorang berjalan. Lilin itu memudahkan retinanya menangkap pantulan cahaya hingga ruangan sekitar terlihat.</p>
+            <p>'Terima kasih, Bu.' Dani membawa lilin yang dibawakan ibu ke dalam kamar dan menaruh di samping bukubukunya yang terlihat jelas berantakan.</p>
+            <p>Meski kekurangan cahaya, ia tetap melanjutkan mengerjakan tugas. Hanya dalam waktu sebentar saja, matanya mulai lelah. Ia mengantuk dan menjatuhkan kepala di atas buku.</p>
+            <p>Hawa dingin berubah menjadi begitu hangat. Daun telinga Dani yang melengkung menyatukan bunyi gemerisik aneh kemudian masuk hingga ke gendang telinga. Reseptor hidung mengirim sinyal aroma gosong ke saraf olfaktori hingga ke otak. Dengan mata masih terpejam, ia merasa pupilnya menangkap cahaya menjadi lebih terang.</p>
+            <p>Sinyal-sinyal aneh itu membuat Dani harus membuka mata. Tanpa pikir panjang, Dani langsung terlonjak melihat api melahap kertas-kertas di depannya. Ia melihat lilin yang berdiri sudah terjatuh.</p>
+            <p>'IBUUUUUUU!!'</p>
+    </form>
+</div>
+
+        <div class="column questions" style="flex:2">
+    <!-- Questions 9 -->
+    <p style="text-align: left;"><strong>Nomor 9</strong><br>
+        Dani memiliki karakter yang gigih. Hal itu terlihat dari tindakan Dani yang...</p>
+            <ol type="a">
+                <li>mudah beradaptasi dengan kondisi sekitarnya yang gelap gulita.</li>
+                <li>mengucapkan terima kasih kepada ibunya yang memberinya lilin.</li>
+                <li>berusaha keras membuka matanya yang mengantuk untuk mencari ibu.</li>
+                <li>tetap mengerjakan tugas meskipun dengan penerangan yang seadanya.</li>
+                <li>begitu cepat merasakan sinyal aneh yang sampai ke telinga dan matanya.</li>
+            </ol>
+            <div class="radio-group" centered>
+                <div class="radio-buttons" centered>
+                    <p style="text-align: left;"><strong>Jawaban Nomor 9:</strong>
+                        <input type="radio" name="q8" value="a" id="q8-a"><label for="q8-a" style="margin-right: 10px;">a</label>
+                        <input type="radio" name="q8" value="b" id="q8-b"><label for="q8-b" style="margin-right: 10px;">b</label>
+                        <input type="radio" name="q8" value="c" id="q8-c"><label for="q8-c" style="margin-right: 10px;">c</label>
+                        <input type="radio" name="q8" value="d" class="correct" id="q8-d"><label for="q8-d" style="margin-right: 10px;">d</label>
+                        <input type="radio" name="q8" value="e" id="q8-e"><label for="q8-e" style="margin-right: 10px;">e</label>
+                    </p>
+                </div>
+            </div>
+    <!-- Questions 10 -->
+            <p style="text-align: left;"><strong>Nomor 10</strong><br>
+                Apa tujuan penulis menggunakan kata “PET!” pada bagian awal cerita tersebut?</p>
+            <ol type="a">
+                <li>exmpresi ketika pemadaman listrik atau lampu padam</li>
+                <li>memanggil binatang peliharaan</li>
+                <li>karena bahagia</li>
+                <li>ekpresi mengantuk</li>
+                <li>penulis menggambarkan keadaan pada malam itu</li>
+            </ol>
+            <div class="radio-group" centered>
+                <div class="radio-buttons" centered>
+                    <p style="text-align: left;"><strong>Jawaban Nomor 8:</strong>
+                        <input type="radio" name="q9" value="a" class="correct" id="q9-a"><label for="q9-a" style="margin-right: 10px;">a</label>
+                        <input type="radio" name="q9" value="b" id="q9-b"><label for="q9-b" style="margin-right: 10px;">b</label>
+                        <input type="radio" name="q9" value="c" id="q9-c"><label for="q9-c" style="margin-right: 10px;">c</label>
+                        <input type="radio" name="q9" value="d" id="q9-d"><label for="q9-d" style="margin-right: 10px;">d</label>
+                        <input type="radio" name="q9" value="e" id="q9-e"><label for="q9-e" style="margin-right: 10px;">d</label>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="submit"><strong>Kirim Jawaban</strong></button>
+            <style>
+        /* CSS styles */
+            .containerquiz {
+                display: flex;
+                padding: 5px 30px 10px 10px;
+
+            }
+
+            .column {
+                padding: 20px 20px 20px 5px;
+            }
+
+            .reading {
+                text-align: left;
+                background-color: lightblue;
+                border-radius: 20px;
+                padding: 10px;
+            }
+
+            .questions {
+                text-align: left;
+                background-color: lightgrey;
+                border-radius: 20px;
+                padding: 20px;
+            }
+
+            .radio-group {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+
+            .radio-group label {
+                margin-right: 20px;
+            }
+            .table1 {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            th,
+            td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+
+            input[type="radio"] {
+                margin-right: 5px;
+            }
+
+            .fusia {
+                background-color: #ff00ff;
+            /* Warna fusia */
+            }
+
+            tr,
+            td,
+            th {
+                border: 1px solid black;
+            }
+
+            .radio-buttons {
+                display: flex;
+                background-color: #FF00FF;
+                border: 3px solid black;
+            /* Add border around radio buttons */
+                padding: 5px;
+            /* Add padding inside the border */
+                border-radius: 20px;
+            }
+        </style>
+    </body>
 {% endblock %}
